@@ -92,12 +92,20 @@
   border-color: #0070f3;
 }
 
-.card h2 {
+.h2tag {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.styledContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.ptag {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
