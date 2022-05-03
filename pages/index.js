@@ -32,8 +32,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          {data.map((value)=>{
-                  return <Card title={value.title} description={value.description} smallDesc={value.smallDesc} />
+          {data.map((value, index)=>{
+                  return <Card key={index} title={value.title} description={value.description} smallDesc={value.smallDesc} />
               })}
         </div>
       </main>
