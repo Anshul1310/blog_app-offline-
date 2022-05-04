@@ -1,7 +1,8 @@
 import styles from '../styles/contact.module.css';
 import {useState} from "react";
+import React from 'react';
 
-const contact=()=>{
+const Contact=()=>{
 	const [name,setName]=useState("");
 	const [email,setEmail]=useState("");
 	const [query,setQuery]=useState("");
@@ -40,4 +41,4 @@ const contact=()=>{
 	</div>)
 }
 
-export default contact;
+export default Contact;
