@@ -1,0 +1,18 @@
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	flex-direction: column;
+}
+
+.main input{
+	margin-top: 25px;
+    height: 45px;
+    min-width: 287px;
+    border-radius: 0px;
+}
+
+.main button{
+	margin-top: 30px;
+}
